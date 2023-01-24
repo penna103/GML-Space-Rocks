@@ -11,7 +11,8 @@ if(keyboard_check(vk_up)){
 }
 
 if(keyboard_check_pressed(vk_space)){
-	inst = instance_create_layer(x,y, "Instances", obj_shot);
+	var inst = instance_create_layer(x,y, "Instances", obj_shot);
+	inst.direction = image_angle
 }
 
 move_wrap(true,true,sprite_width/2);

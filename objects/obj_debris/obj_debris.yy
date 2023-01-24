@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_asteroidsmall",
+  "name": "obj_debris",
   "spriteId": {
-    "name": "spr_asteroidsmall",
-    "path": "sprites/spr_asteroidsmall/spr_asteroidsmall.yy",
+    "name": "spr_debris",
+    "path": "sprites/spr_debris/spr_debris.yy",
   },
   "solid": false,
   "visible": true,
