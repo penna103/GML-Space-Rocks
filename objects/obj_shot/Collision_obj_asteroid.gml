@@ -1,3 +1,5 @@
+
+
 instance_destroy();
 
 with(other){
@@ -7,14 +9,18 @@ with(other){
 		var new_asteroid = instance_create_layer(x,y,"Instances", obj_asteroid);
 		new_asteroid.sprite_index = spr_asteroidmedium;
 		}
+		score = score + 5;
 	} else if (sprite_index == spr_asteroidmedium){
 		repeat(2){
 		var new_asteroid = instance_create_layer(x,y,"Instances", obj_asteroid);
 		new_asteroid.sprite_index = spr_asteroidsmall;
+		}
+		score = score + 10;
+	} else if (sprite_index == spr_asteroidsmall){
+		score = score + 15;
 		}
 	}
 	
 	repeat(10){
 		instance_create_layer(x,y,"Instances", obj_debris);
 	}
-}

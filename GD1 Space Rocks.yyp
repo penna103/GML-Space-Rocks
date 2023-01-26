@@ -3,8 +3,10 @@
   "resourceVersion": "1.6",
   "name": "GD1 Space Rocks",
   "resources": [
+    {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":4,},
     {"id":{"name":"fnt_scoreboard","path":"fonts/fnt_scoreboard/fnt_scoreboard.yy",},"order":0,},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},"order":3,},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
     {"id":{"name":"spr_asteroidsmall","path":"sprites/spr_asteroidsmall/spr_asteroidsmall.yy",},"order":1,},
     {"id":{"name":"spr_asteroidmedium","path":"sprites/spr_asteroidmedium/spr_asteroidmedium.yy",},"order":2,},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":0,},
@@ -13,9 +15,10 @@
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":1,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
     {"id":{"name":"obj_shot","path":"objects/obj_shot/obj_shot.yy",},"order":2,},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":2,},
     {"id":{"name":"spr_debris","path":"sprites/spr_debris/spr_debris.yy",},"order":5,},
     {"id":{"name":"spr_asteroidlarge","path":"sprites/spr_asteroidlarge/spr_asteroidlarge.yy",},"order":3,},
-    {"id":{"name":"rmgame","path":"rooms/rmgame/rmgame.yy",},"order":0,},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -31,7 +34,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmgame","path":"rooms/rmgame/rmgame.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
