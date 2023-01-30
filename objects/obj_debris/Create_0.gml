@@ -1,2 +1,2 @@
-direction = irandom_range(0, 359.99);
-speed = 1;
+direction = random_range(0, 359.99);
+speed = random_range(1, 3);

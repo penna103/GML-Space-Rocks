@@ -1,5 +1,5 @@
 score = 0;
-lives = 5;
+lives = 3;
 
 draw_set_font(fnt_scoreboard);
 

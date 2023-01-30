@@ -1,19 +1,37 @@
 if(keyboard_check(vk_left)){
-	image_angle = image_angle + 5	
+	motion_add(180, 0.03)
+	image_angle = 180
 }
 
 if(keyboard_check(vk_right)){
-	image_angle = image_angle - 5	
+	motion_add(0, 0.03)
+	image_angle = 0
 }
 
 if(keyboard_check(vk_up)){
-	motion_add(image_angle, 0.025)	
+	motion_add(90, 0.03)
+	image_angle = 90
+		if(keyboard_check(vk_right)){
+		image_angle = 45	
+	}
+		if(keyboard_check(vk_left)){
+		image_angle = 135	
+	}
 }
 
-if(keyboard_check_pressed(vk_space)){
-	var inst = instance_create_layer(x,y, "Instances", obj_shot);
-	inst.direction = image_angle
-	audio_play_sound(snd_zap, 1, false);
+if(keyboard_check(vk_down)){
+	motion_add(270, 0.03)	
+	image_angle = 270
+		if(keyboard_check(vk_right)){
+		image_angle = 315	
+	}
+		if(keyboard_check(vk_left)){
+		image_angle = 225
+	}
+}
+
+if(keyboard_check_pressed(vk_lshift)){
+alarm [0] = 5 
 }
 
 move_wrap(true,true,sprite_width/2);
