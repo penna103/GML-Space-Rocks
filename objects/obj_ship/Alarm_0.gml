@@ -1,3 +1,3 @@
 if(keyboard_check(vk_lshift)){
-alarm [1] = 9
+alarm [1] = 1;
 }

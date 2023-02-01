@@ -5,7 +5,7 @@ if(room == rm_game){
 	} else {
 		audio_play_sound(msc_song, 2, true);
 	}	
-	repeat(6){
+	repeat(4){
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
 			irandom_range(room_width*0.7, room_width)
@@ -18,4 +18,10 @@ if(room == rm_game){
 	}
 	
 	alarm[0] = 60;
+}
+
+if(room == rm_win){
+		repeat(500){
+		instance_create_layer(250,250, "Instances", obj_debris);	
+	}
 }
