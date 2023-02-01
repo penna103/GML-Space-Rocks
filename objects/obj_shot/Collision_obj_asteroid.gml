@@ -8,7 +8,7 @@ with(other){
 		var new_asteroid = instance_create_layer(x,y,"Instances", obj_asteroid);
 		new_asteroid.sprite_index = spr_asteroidmedium;
 		}
-		score = score + 1;
+		score = score + 2;
 	} else if (sprite_index == spr_asteroidmedium){
 		repeat(2){
 		var new_asteroid = instance_create_layer(x,y,"Instances", obj_asteroid);

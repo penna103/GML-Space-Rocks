@@ -4,6 +4,7 @@
   "name": "GD1 Space Rocks",
   "resources": [
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":4,},
+    {"id":{"name":"spr_wishingstar","path":"sprites/spr_wishingstar/spr_wishingstar.yy",},"order":7,},
     {"id":{"name":"fnt_scoreboard","path":"fonts/fnt_scoreboard/fnt_scoreboard.yy",},"order":0,},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},"order":3,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
@@ -14,6 +15,7 @@
     {"id":{"name":"spr_shot","path":"sprites/spr_shot/spr_shot.yy",},"order":4,},
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":1,},
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},"order":1,},
+    {"id":{"name":"obj_wishingstar","path":"objects/obj_wishingstar/obj_wishingstar.yy",},"order":5,},
     {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},"order":5,},
     {"id":{"name":"snd_zap","path":"sounds/snd_zap/snd_zap.yy",},"order":2,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
@@ -69,6 +71,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }

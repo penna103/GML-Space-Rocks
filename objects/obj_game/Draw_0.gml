@@ -13,7 +13,7 @@ switch(room){
 		);
 		draw_text(
 			room_width/2, 200, 
-			@"Score 1,000 points to win!
+			@"Score 2,000 points to win!
 			
 			UP: Move
 			LEFT/RIGHT: Turn
@@ -29,9 +29,13 @@ switch(room){
 		draw_set_halign(fa_center);
 		var c = c_yellow;
 		draw_text_transformed_color(
-			room_width/2, 200, "YOU WON",
+			room_width/2, 150, "YOU WON",
 			3, 3, 0, c,c,c,c, 1
 		);
+		draw_text(
+			room_width/2, 250, 
+			@"FINAL SCORE : "+string(score)
+		);	
 		draw_text(
 			room_width/2, 300, 
 			@">>PRESS ENTER TO RESTART<<"
