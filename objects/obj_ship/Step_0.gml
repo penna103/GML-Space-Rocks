@@ -30,8 +30,12 @@ if(keyboard_check(vk_down)){
 	}
 }
 
+if(speed > 0){
+	speed = speed - 0.001	
+}
+
 if(keyboard_check_pressed(vk_lshift)){
-alarm [0] = 5 
+alarm [0] = 1
 }
 
 move_wrap(true,true,sprite_width/2);
